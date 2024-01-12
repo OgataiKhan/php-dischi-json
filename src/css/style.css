@@ -27,6 +27,7 @@ body {
 .mycard {
   padding: 20px 100px 5px;
   background-color: #39393F;
+  cursor: pointer;
 }
 
 .mycard h2 {
