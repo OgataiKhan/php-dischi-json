@@ -1,0 +1,38 @@
+[
+  {
+    "title": "The Last Stand",
+    "artist": "Sabaton",
+    "year": "2016",
+    "cover": "img/last-stand.jpg"
+  },
+  {
+    "title": "Follow the Blind",
+    "artist": "Blind Guardian",
+    "year": "1989",
+    "cover": "img/follow-the-blind.jpg"
+  },
+  {
+    "title": "Deceiver of the Gods",
+    "artist": "Amon Amarth",
+    "year": "2013",
+    "cover": "img/deceiver-of-the-gods.jpg"
+  },
+  {
+    "title": "Once",
+    "artist": "Nightwish",
+    "year": "2004",
+    "cover": "img/once.jpg"
+  },
+  {
+    "title": "Era",
+    "artist": "Era",
+    "year": "1996",
+    "cover": "img/era.jpg"
+  },
+  {
+    "title": "Get Heavy",
+    "artist": "Lordi",
+    "year": "2002",
+    "cover": "img/get-heavy.jpg"
+  }
+]
