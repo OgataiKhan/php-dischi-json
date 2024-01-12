@@ -24,7 +24,7 @@
       <div class="container">
         <ul class="row gx-5 gy-5">
           <li v-for="album in albums" class="col-4">
-            <div @click="showOverlay(album)" class="mycard text-center">
+            <div @click="showOverlay(album)" class="mycard text-center rounded">
               <div class="img-box">
                 <img :src="album.cover" :alt="album.title">
               </div>
