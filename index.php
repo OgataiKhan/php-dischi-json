@@ -15,22 +15,22 @@
 
 <body>
   <div id="app">
-    <header>
+    <header class="py-4">
       <h1 class="text-center">
         Albums
       </h1>
     </header>
-    <main>
+    <main class="pb-4">
       <div class="container">
         <ul class="row gx-5 gy-5">
           <li v-for="album in albums" class="col-4">
             <div class="mycard text-center">
               <div class="img-box">
-                <img src="img/deceiver-of-the-gods.jpg" alt="Deceiver of the Gods">
+                <img :src="album.cover" alt="Deceiver of the Gods">
               </div>
-              <h2 class="mt-4">Title</h2>
-              <p>Artist</p>
-              <p>Year</p>
+              <h2 class="mt-4">{{ album.title }}</h2>
+              <p>{{ album.artist }}</p>
+              <p>{{ album.year }}</p>
             </div>
           </li>
         </ul>

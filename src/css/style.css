@@ -20,12 +20,16 @@ MAIN
 */
 
 body {
-  background-color: green;
+  background-color: #3E4E50;
+}
+
+header h1 {
+  color: #FFFFFF
 }
 
 .mycard {
   padding: 20px 100px;
-  background-color: orange;
+  background-color: #39393F;
   color: #FFFFFF;
 }
 
