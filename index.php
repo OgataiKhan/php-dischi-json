@@ -26,7 +26,7 @@
           <li v-for="album in albums" class="col-4">
             <div class="mycard text-center">
               <div class="img-box">
-                <img :src="album.cover" alt="Deceiver of the Gods">
+                <img :src="album.cover" :alt="album.title">
               </div>
               <h2 class="mt-4">{{ album.title }}</h2>
               <p>{{ album.artist }}</p>
@@ -34,6 +34,19 @@
             </div>
           </li>
         </ul>
+      </div>
+      <div class="disk-select d-flex justify-content-center align-items-center">
+        <div class="select-card text-center">
+          <div class="img-box">
+            <img src="img/last-stand.jpg" alt="TITLE">
+          </div>
+          <h2 class="mt-4">title</h2>
+          <p>artist</p>
+          <p>year</p>
+        </div>
+        <div class="exit-btn d-flex justify-content-center align-items-center">
+          X
+        </div>
       </div>
     </main>
   </div>

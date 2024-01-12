@@ -21,19 +21,47 @@ MAIN
 
 body {
   background-color: #3E4E50;
-}
-
-header h1 {
   color: #FFFFFF
 }
 
 .mycard {
-  padding: 20px 100px;
+  padding: 20px 100px 5px;
   background-color: #39393F;
-  color: #FFFFFF;
+}
+
+.mycard h2 {
+  font-size: 1.25rem;
+}
+
+.mycard p {
+  margin-bottom: 5px;
 }
 
 .img-box {
   width: 100%;
 }
 
+.disk-select {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.7);
+  /* display: none; */
+}
+
+.select-card {
+  width: 400px;
+}
+
+.exit-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: 2px solid #FFFFFF;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
