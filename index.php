@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <div id="app" v-cloak>
+  <div id="app">
     <header class="py-4">
       <h1 class="text-center">
         Albums
@@ -35,7 +35,8 @@
           </li>
         </ul>
       </div>
-      <div v-if="overlayVisible" class="disk-select d-flex justify-content-center align-items-center">
+      <!-- Overlay -->
+      <div v-if="overlayVisible" v-cloak class="disk-select d-flex justify-content-center align-items-center">
         <div class="select-card text-center">
           <div class="img-box">
             <img :src="selectedAlbum.cover" :alt="selectedAlbum.title">
@@ -48,6 +49,7 @@
           X
         </div>
       </div>
+      <!-- /Overlay -->
     </main>
   </div>
 
